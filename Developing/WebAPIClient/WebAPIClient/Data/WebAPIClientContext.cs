@@ -15,5 +15,7 @@ namespace WebAPIClient.Data
         }
 
         public DbSet<WebAPIClient.Models.Client> Client { get; set; } = default!;
+
+        public DbSet<WebAPIClient.Models.Pet>? Pet { get; set; }
     }
 }
